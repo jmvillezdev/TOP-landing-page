@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    padding-left: 10rem; 
+    padding-right: 10rem;
+
+}
+
+.hero-main-text,
+.header-logo-text {
+    color: #F9FAF8;
+}
+
+a,
+.hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    
+}
+
+a {   
+    text-decoration: none;
+}
+
+.logo-section,
+.nav-list,
+.hero-section {
+    display: flex;
+}
+
+.logo-section {
+    gap: 30rem;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.logo-section nav {
+    align-self: center;
+}
+
+.nav-list {
+    list-style: none;
+    gap: 2rem;
+}
