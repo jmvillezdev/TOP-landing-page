@@ -5,8 +5,8 @@ body {
 
 header {
     background-color: #1F2937;
-    padding-left: 10rem; 
-    padding-right: 10rem;
+    padding-left: 15rem; 
+    padding-right: 15rem;
 
 }
 
@@ -25,6 +25,7 @@ a,
 .hero-main-text {
     font-size: 48px;
     font-weight: 800;
+    margin-top: 0;
 }
 
 .header-logo-text {
@@ -46,6 +47,7 @@ a {
     gap: 30rem;
     justify-content: space-between;
     height: 70px;
+    margin-bottom: 8rem;
 }
 
 .logo-section nav {
@@ -55,4 +57,20 @@ a {
 .nav-list {
     list-style: none;
     gap: 2rem;
+}
+
+.hero-section {
+    gap: 15rem;
+    justify-content: space-between;
+    height: 450px;
+}
+
+/* .left-section,
+.right-section {
+    flex-grow: 1;
+} */
+
+.left-section {
+    flex-basis: 600px;
+    justify-content: flex-start
 }
