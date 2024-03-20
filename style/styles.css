@@ -215,3 +215,17 @@ cite {
     font-size: 20px;
     font-weight: 900;
 }
+
+/* FOOTER */
+
+footer {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text {
+    color: white;
+    font-size: 24px;
+}
