@@ -137,3 +137,35 @@ figure {
     border: 1px solid blue;
     border-radius: 10%;
 }
+
+
+/* TESTIMONIAL */
+
+#testimonial {
+    background-color: #e5e7eb;
+    height: 50vh;
+
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+blockquote > p {
+    padding-top: 120px;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    
+}
+
+cite {
+    font-size: 27px;
+    align-self: flex-end;
+    
+}
