@@ -172,3 +172,46 @@ cite {
     align-self: flex-end;
     
 }
+
+/* CALL TO ACTION */
+
+#call-to-action {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action--wrapper {
+    background-color: #3882f6;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 90px 150px;
+    border-radius: 30px;
+}
+
+.call-to-action--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action--header { 
+    font-size: 36px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.call-to-action--para {
+    font-size: 24px;
+    color: white;
+}
+
+.call-to-action__button {
+    border: 2px solid white;
+    padding: 16px 64px;
+    font-size: 20px;
+    font-weight: 900;
+}
