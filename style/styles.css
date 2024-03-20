@@ -91,3 +91,49 @@ button {
     padding: 8px 40px;
     cursor: pointer;
 }
+
+
+/* INFORMATION */
+
+#information {
+    background-color: #f9faf8;
+    margin-top: 48px;
+}
+
+.information__header--text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.information__figures--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 24px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.information__figure--description {
+    font-size: 18px;
+    text-align: center;
+}
+
+.information__image {
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 10%;
+}
